@@ -1,6 +1,7 @@
 // 本地预览用真实 Supabase 配置
-const SUPABASE_URL = "https://qdjhgxyiymyqoimpdhda.supabase.co";
-const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFkamhneHlpeW15cW9pbXBkaGRhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTA5MzEzOTksImV4cCI6MjA2NjUwNzM5OX0.SgHR42DTWamTqSE8NIzRXQPmmZCtse4z4fvI-8Ur6-4";
+
+const SUPABASE_URL = "SUPABASE_URL_PLACEHOLDER";
+const SUPABASE_KEY = "SUPABASE_KEY_PLACEHOLDER";
 
 async function fetchPosts() {
   const res = await fetch(`${SUPABASE_URL}/rest/v1/posts?select=*`, {

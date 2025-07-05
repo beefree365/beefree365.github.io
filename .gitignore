@@ -16,6 +16,8 @@ _site/
 # 日志文件
 *.log
 
+assets/*dev.js
+
 # 系统文件
 .DS_Store
 Thumbs.db
