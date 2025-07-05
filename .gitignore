@@ -18,6 +18,8 @@ _site/
 
 assets/*dev.js
 
+!push.sh
+
 # 系统文件
 .DS_Store
 Thumbs.db
