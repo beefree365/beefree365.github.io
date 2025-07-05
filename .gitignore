@@ -1,0 +1,29 @@
+# Jekyll 生成文件
+_site/
+.jekyll-cache/
+.sass-cache/
+
+# 环境变量
+.env
+
+# 压缩包
+*.zip
+
+# 编辑器配置
+.vscode/
+.idea/
+
+# 日志文件
+*.log
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# Ruby 相关
+Gemfile.lock
+vendor/
+
+# 忽略所有 Markdown 文件，但保留 README
+# *.md
+# !README.md
